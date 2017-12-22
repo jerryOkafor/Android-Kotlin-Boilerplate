@@ -29,6 +29,10 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
+ext.compiled_sdk_version = 27
+ext.target_sdk_version = 27
+ext.min_sdk_version = 21
+ext.build_tools_version = '27.0.2'
 
 ext.dagger_version = '2.12'
 ext.timber_version = '4.6.0'

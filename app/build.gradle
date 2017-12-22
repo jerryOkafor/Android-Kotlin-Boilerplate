@@ -9,13 +9,13 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.2'
+    compileSdkVersion compiled_sdk_version
+    buildToolsVersion build_tools_version
 
     defaultConfig {
         applicationId "me.jerryhanks.kotlindagger"
-        minSdkVersion 21
-        targetSdkVersion 27
+        minSdkVersion min_sdk_version
+        targetSdkVersion target_sdk_version
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
