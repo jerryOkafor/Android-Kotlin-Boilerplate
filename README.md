@@ -3,7 +3,6 @@
 # Android-Kotlin-Boilerplate
 
 [![Build Status](https://travis-ci.org/po10cio/Android-Kotlin-Boilerplate.svg?branch=master)](https://travis-ci.org/po10cio/Android-Kotlin-Boilerplate)
-<!--[![CircleCI](https://circleci.com/gh/po10cio/Android-Kotlin-Boilerplate.svg?style=svg)](https://circleci.com/gh/po10cio/Android-Kotlin-Boilerplate)-->
 [![Coverage](https://img.shields.io/codecov/c/github/po10cio/Android-Kotlin-Boilerplate/master.svg)](https://codecov.io/gh/po10cio/Android-Kotlin-Boilerplate) 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/po10cio/Android-Kotlin-Boilerplate/blob/master/LICENSE.md) 
@@ -16,19 +15,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## What you can learn from this repo
 
-- How to implement `UI tests(Instrumentation)` using Espresso and `logic tests (Unit test)` using JUnit4
-- Fundamental Kotlin language and basic usage
+- How to implement `UI tests(Instrumentation)` using Espresso and `logic tests (Unit test)` using JUnit4.
+- Fundamental Kotlin language and basic usage.
+- Continuous Integration with Travis ci.
 
 ## Library version
 
-- Kotlin: 1.1.4-3
-- RxJava: 2.1.1
+- Buils Tools Version:27.0.2
+- Compile SDK Version: 27
+- Target SDK version: 27
+- Support Version: 27.0.2
+- Android Architecture version: 1.0.0
+- Dagger version: 2.12
+- Retrofit Version: 2.3.0
+- Kotlin: 1.2.10
+- RxKotlin: 2.2.0
 - Espresso: 3.0.1 (espresso-core)
 
 
 ### Prerequisites
 
-You need AndroidStudio 3.0 to run this project.
+You need AndroidStudio 3.0 or higher to run this project.
 
 ```
 git clone https://github.com/po10cio/Android-Kotlin-Boilerplate.git
