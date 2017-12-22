@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidKotlinBoilerPlate</string>
+    <string name="android_kotlin_boilerplate_code">Android Kotlin Boilerplate Code</string>
+    <string name="click_me">Click Me</string>
+    <string name="enter_some_text_here">Enter some text here</string>
+</resources>
