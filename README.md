@@ -60,13 +60,13 @@ src----
 
 ### Directory Description
 
-##data
+## data
 The data package contains the datasource interface and the Repository which implements the interface.
 
 * DataSource : This is the data source contracta that any possible datasource for our app must implement
-* Repository: A simple implementatio of the Datasource interface.
+* Repository: A simple implementation of the Datasource interface.
 
-##di
+## di
 This package conatains all the dependency intergration stuff which  inclucde the 
 
 
@@ -82,16 +82,16 @@ This package conatains all the dependency intergration stuff which  inclucde the
 * ViewmodelKey : Dagger binding key for ViewModels
 * ViewModelModules: Provides injectors for the Android Achiteacture Component ViewModoel.
 
-###model
+### model
 This package holds all the models for our app which one of them at the momnent is User
 
-###ui
+### ui
 This packge holds the Fragments, Activities and the viewModels
 
-###util
+### util
 This package holds all the utility files thate we may need from time to time.
 
-##Note:
+## Note:
 The contents of this project and the pacakges organisations are personal opinion adns it is not any standard by any authority. If you have a different opinion, feel free to share it so that we can make the cahnges.
 
 ## Authors
