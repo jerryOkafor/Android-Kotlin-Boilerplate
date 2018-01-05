@@ -2,6 +2,7 @@
 
 # Android-Kotlin-Boilerplate
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/45d4623841a7437cad03310a3b448d00)](https://www.codacy.com/app/po10cio/Android-Kotlin-Boilerplate?utm_source=github.com&utm_medium=referral&utm_content=po10cio/Android-Kotlin-Boilerplate&utm_campaign=badger)
 [![Build Status](https://travis-ci.org/po10cio/Android-Kotlin-Boilerplate.svg?branch=master)](https://travis-ci.org/po10cio/Android-Kotlin-Boilerplate)
 [![Coverage](https://img.shields.io/codecov/c/github/po10cio/Android-Kotlin-Boilerplate/master.svg)](https://codecov.io/gh/po10cio/Android-Kotlin-Boilerplate)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e0f41b078f364135a6f03fca7e9171c3)](https://www.codacy.com/app/po10cio/Android-Kotlin-Boilerplate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=po10cio/Android-Kotlin-Boilerplate&amp;utm_campaign=Badge_Grade)
