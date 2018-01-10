@@ -45,14 +45,12 @@ class AppInjector {
             (activity as? FragmentActivity)?.supportFragmentManager?.registerFragmentLifecycleCallbacks(object : FragmentManager.FragmentLifecycleCallbacks() {
 
                 override fun onFragmentAttached(fm: FragmentManager?, f: Fragment?, context: Context?) {
-                    Timber.d("Fragment attached: %s", f!!.javaClass.simpleName)
                     if (f is Injectable) {
                         AndroidSupportInjection.inject(f)
                     }
 
-                    f.childFragmentManager.registerFragmentLifecycleCallbacks(object : FragmentManager.FragmentLifecycleCallbacks() {
+                    f?.childFragmentManager?.registerFragmentLifecycleCallbacks(object : FragmentManager.FragmentLifecycleCallbacks() {
                         override fun onFragmentAttached(fm: FragmentManager?, f: Fragment?, context: Context?) {
-                            Timber.d("Child Fragment attached: %s", f!!.javaClass.simpleName)
                             if (f is Injectable) {
                                 AndroidSupportInjection.inject(f)
                             }

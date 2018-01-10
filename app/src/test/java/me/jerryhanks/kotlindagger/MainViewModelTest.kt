@@ -34,6 +34,9 @@ class MainViewModelTest {
     private lateinit var mainViewModel: MainViewModel
 
 
+    /**
+     * Setup Mockito and other stuffs
+     * */
     @Before
     fun setUp() {
         MockitoAnnotations.initMocks(this)
@@ -41,6 +44,9 @@ class MainViewModelTest {
         mainViewModel = MainViewModel(repository)
     }
 
+    /**
+     * Test load users when no user is saved
+     * */
     @Test
     fun `loadUsers_whenNoUserSaved`() {
         `when`(repository.loadUsers()).thenReturn(TestUtil.createEmptyUsers())
@@ -49,6 +55,9 @@ class MainViewModelTest {
         assertThat(users, nullValue())
     }
 
+    /**
+     * Test load user when a user is saved
+     * */
     @Test
     fun `loadUser_whenUserSaved`() {
         `when`(repository.loadUsers()).thenReturn(TestUtil.createUsers())

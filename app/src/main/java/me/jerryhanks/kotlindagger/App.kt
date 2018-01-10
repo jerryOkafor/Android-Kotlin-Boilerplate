@@ -20,6 +20,7 @@ class App : Application(), HasActivityInjector {
         @Inject set
 
     lateinit var appComponent: AppComponent
+
     override fun onCreate() {
         super.onCreate()
 

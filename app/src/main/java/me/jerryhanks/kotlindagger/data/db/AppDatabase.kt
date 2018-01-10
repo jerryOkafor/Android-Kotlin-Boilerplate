@@ -17,8 +17,19 @@ import me.jerryhanks.kotlindagger.data.db.entity.User
 @Database(entities = arrayOf(User::class, Pet::class), version = 1)
 abstract class AppDatabase : RoomDatabase() {
 
+    /**
+     * Returns [sersDao]
+     * */
     abstract fun usersDao(): UsersDao
+
+    /**
+     * Returns [PetsDao]
+     * */
     abstract fun petsDao(): PetsDao
+
+    /**
+     * Returns [UserAndPetsDao]
+     * */
     abstract fun userAndPetsDao(): UserAndAllPetsDao
 
     companion object {

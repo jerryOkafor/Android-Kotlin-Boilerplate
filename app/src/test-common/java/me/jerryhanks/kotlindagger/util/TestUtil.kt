@@ -10,6 +10,9 @@ import me.jerryhanks.kotlindagger.data.db.entity.User
 class TestUtil {
 
     companion object {
+        /**
+         * Return a random list of users for use with testing
+         * */
         fun createUsers(): LiveData<List<User>> {
             return object : LiveData<List<User>>() {
                 override fun onActive() {
@@ -22,6 +25,9 @@ class TestUtil {
             }
         }
 
+        /**
+         * Returns and empty user as LiveData
+         * */
         fun createEmptyUsers(): LiveData<List<User>>? {
             return object : LiveData<List<User>>() {
                 override fun onActive() {

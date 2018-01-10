@@ -4,6 +4,9 @@ import retrofit2.Response
 import timber.log.Timber
 import java.io.IOException
 
+/**
+ * Represents a generic Api Response object
+ * */
 class ApiResponse<T> {
 
     val code: Int

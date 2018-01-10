@@ -11,9 +11,6 @@ import me.jerryhanks.kotlindagger.App
 
 /**
  * Created by <@Po10cio> on 8/8/17 for KotlinDagger
- *
- *
-
  */
 
 @Singleton
